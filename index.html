@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/main.css" />
+    <link rel="stylesheet" href="/style/media-query.css" />
+    <link rel="stylesheet" href="/style/keyframe.css" />
+  </head>
+  <body>
+    <div class="nicolas_btn">
+      <h1>CLIQUE AQUI PARA SABER SE O NICOLAS É GAY!!</h1>
+      <button type="button" id="resultado" onclick="redirecionar()">
+        CLIQUE AQUI!!
+      </button>
+    </div>
+  </body>
+  <script>
+    function redirecionar() {
+      if (Math.random() < 0.5) {
+        document.getElementById("resultado").innerHTML = "Ele não é";
+      } else {
+        document.getElementById("resultado").innerHTML = "Ele é";
+      }
+    }
+  </script>
+</html>

@@ -1,0 +1,20 @@
+@media only screen and (max-width: 800px) {
+  body {
+    align-items: start;
+    margin-top: 50%;
+  }
+
+  .nicolas_btn {
+    margin: 20px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .nicolas_btn h1 {
+    text-decoration: underline;
+  }
+
+  .nicolas_btn button {
+  }
+}

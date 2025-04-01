@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  background: black;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+/* ============================= */
+
+.nicolas_btn {
+  color: white;
+  flex-direction: column;
+  border: 2px solid white;
+  border-radius: 500px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nicolas_btn button {
+  border-radius: 20px;
+  height: 40px;
+  width: 150px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: rgba(0, 255, 0, 0.845);
+  border-bottom: 5px solid green;
+  color: white;
+  font-weight: 800;
+  transition: border-bottom ease 0.1s, transform ease 0.1s;
+  animation: pulsar ease 2s infinite alternate;
+}
+
+.nicolas_btn button:active {
+  box-shadow: inset 0 0 20px 0 rgba(0, 0, 0, 0.658);
+  transform: translateY(5px);
+  border-bottom: 0;
+}
